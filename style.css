@@ -204,4 +204,15 @@ nav {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     justify-content: baseline;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-container:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+    background-color: #e0f7ff;
+    border-color: rgba(255, 255, 255, 0.4);
 }
