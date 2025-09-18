@@ -129,7 +129,7 @@ nav {
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 
-.hero-content span {
+.hero-content h1 {
     font-size: 4rem;
     font-weight: 800;
     background: linear-gradient(90deg, #1e90ff, #1728da, #5392ba);
