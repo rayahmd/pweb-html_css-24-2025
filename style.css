@@ -216,3 +216,90 @@ nav {
     background-color: #e0f7ff;
     border-color: rgba(255, 255, 255, 0.4);
 }
+
+/* ================== CONTACT SECTION ================== */
+#contact {
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h1 {
+  margin-bottom: 25px;              /* beri jarak dengan form */
+  font-size: 2.5rem;                /* judul lebih menonjol */
+  font-weight: 700;
+  color: #1e3c72;                   /* biru tua supaya kontras */
+}
+
+.contact-container {
+  max-width: 800px;
+  width: 100%;
+  background: rgba(173, 216, 230, 0.85);  /* biru muda transparan */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);    /* Safari support */
+  border: 1px solid #87cefa;              /* biru muda sebagai border */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.contact-container:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  transform: translateY(-3px);
+}
+
+.contact-container p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #000; /* teks tetap jelas */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.7);
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1e90ff;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(30,144,255,0.3);
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-links img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2); /* sedikit lebih cerah saat hover */
+}
