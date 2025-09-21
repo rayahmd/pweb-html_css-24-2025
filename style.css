@@ -217,7 +217,6 @@ nav {
     border-color: rgba(255, 255, 255, 0.4);
 }
 
-/* ================== CONTACT SECTION ================== */
 #contact {
   padding: 100px 20px;
   text-align: center;
@@ -227,19 +226,19 @@ nav {
 }
 
 #contact h1 {
-  margin-bottom: 25px;              /* beri jarak dengan form */
-  font-size: 2.5rem;                /* judul lebih menonjol */
+  margin-bottom: 25px;             
+  font-size: 2.5rem;               
   font-weight: 700;
-  color: #1e3c72;                   /* biru tua supaya kontras */
+  color: #1e3c72;                   
 }
 
 .contact-container {
   max-width: 800px;
   width: 100%;
-  background: rgba(173, 216, 230, 0.85);  /* biru muda transparan */
+  background: rgba(173, 216, 230, 0.85);  
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);    /* Safari support */
-  border: 1px solid #87cefa;              /* biru muda sebagai border */
+  -webkit-backdrop-filter: blur(12px);    
+  border: 1px solid #87cefa;              
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
@@ -254,7 +253,7 @@ nav {
 .contact-container p {
   margin-bottom: 20px;
   font-size: 1.1rem;
-  color: #000; /* teks tetap jelas */
+  color: #000; 
 }
 
 .contact-form {
@@ -301,5 +300,5 @@ nav {
 
 .social-links img:hover {
   transform: scale(1.2);
-  filter: brightness(1.2); /* sedikit lebih cerah saat hover */
+  filter: brightness(1.2); 
 }
