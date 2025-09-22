@@ -1013,3 +1013,146 @@ nav {
     gap: 8px;
   }
 }
+
+/* KARYAA */
+.section-karya {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px 60px;
+}
+
+.section-karya h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0b2546;
+  margin-bottom: 24px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.filter-buttons button.active {
+  background: #0761fd;
+  color: #fff;
+}
+
+.filter-buttons button:not(.active) {
+  background: #e9f2ff;
+  color: #0b2546;
+}
+
+.filter-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 65px;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card-img-wrapper {
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.badge-gubernur {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #0761fd;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.badge-mendikbud {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #d96c07;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.card-content {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.card-content .year {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0b2546;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #444;
+  flex: 1;
+}
+
+.card-content a {
+  font-size: 0.95rem;
+  color: #f39c12;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+  transition: color 0.2s ease;
+}
+
+.card-content a:hover {
+  color: #d35400;
+}
