@@ -285,7 +285,6 @@ nav {
 
 /* previwe */
 
-/* Section Preview Karya */
 #preview-karya {
   background: white;
   padding: 60px 20px;
@@ -320,7 +319,6 @@ nav {
   }
 }
 
-/* HP */
 @media (max-width: 600px) {
   #preview-karya img {
     max-width: 80%;
