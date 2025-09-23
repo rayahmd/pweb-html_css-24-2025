@@ -752,10 +752,6 @@ nav {
 
 /* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
-  /* Global */
-  body {
-    padding-top: 80px;
-  }
 
   /* Header / Nav */
   header {
@@ -871,31 +867,26 @@ nav {
 @media (max-width: 767px) {
   /* Header / Nav */
   header {
-    width: 95%;
-    top: 5px;
+    margin-top: 10px;
+    width: 80%;
     padding: 10px;
   }
 
-  .logo-container {
-    gap: 12px;
-  }
 
   .logo {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .circle {
-    width: 30px;
-    height: 30px;
+    display: none;
   }
 
   .nav-links {
-    gap: 10px;
+    gap: 0px;
   }
 
   .nav-links a {
-    font-size: 0.8rem;
-    padding: 4px 6px;
+    font-size: 0.5rem;
   }
 
   /* Hero */
@@ -1016,6 +1007,10 @@ nav {
 }
 
 /* KARYAA */
+
+body{
+  background: linear-gradient(to bottom, #add8e6, #ffffff);
+}
 .section-karya {
   max-width: 1200px;
   margin: 0 auto;
