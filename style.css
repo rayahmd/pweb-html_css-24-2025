@@ -755,6 +755,7 @@ nav {
 
   /* Header / Nav */
   header {
+    margin-top: 20px;
     width: 90%;
     top: 5px;
   }
