@@ -314,6 +314,19 @@ nav {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
+@media (max-width: 992px) {
+  #preview-karya img {
+    max-width: 50%;
+  }
+}
+
+/* HP */
+@media (max-width: 600px) {
+  #preview-karya img {
+    max-width: 80%;
+  }
+}
+
 #preview-karya .cta-button {
   display: flex;
   flex-direction: column;
