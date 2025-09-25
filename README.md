@@ -1,4 +1,4 @@
-## 👥 Anggota Kelompok
+## 👥 Anggota Kelompok P24
 
 | No | Nama                          | NRP        |
 |----|-------------------------------|------------|
