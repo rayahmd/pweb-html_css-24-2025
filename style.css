@@ -1502,36 +1502,6 @@ body{
   margin-bottom: 24px;
 }
 
-.filter-buttons {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 36px;
-  flex-wrap: wrap;
-}
-
-.filter-buttons button {
-  padding: 8px 18px;
-  border-radius: 20px;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-.filter-buttons button.active {
-  background: #0761fd;
-  color: #fff;
-}
-
-.filter-buttons button:not(.active) {
-  background: #e9f2ff;
-  color: #0b2546;
-}
-
-.filter-buttons button:hover {
-  transform: translateY(-2px);
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
@@ -1616,17 +1586,4 @@ body{
   font-size: 0.95rem;
   color: #444;
   flex: 1;
-}
-
-.card-content a {
-  font-size: 0.95rem;
-  color: #f39c12;
-  font-weight: 600;
-  text-decoration: none;
-  margin-top: auto;
-  transition: color 0.2s ease;
-}
-
-.card-content a:hover {
-  color: #d35400;
 }
